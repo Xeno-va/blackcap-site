@@ -2,7 +2,7 @@
 <rect x="1" y="1" width="758" height="618" rx="18" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
 <text x="32" y="56" font-size="24" font-weight="700" fill="#f8fafc">Tuesday morning</text>
 <text x="32" y="84" font-size="15" fill="#94a3b8">6 wells · 4 fine · 2 need a look</text>
-<text x="728" y="56" font-size="13" fill="#64748b" text-anchor="end">EXAMPLE · illustrative wells</text>
+<text x="728" y="56" font-size="13" fill="#64748b" text-anchor="end">Sample report</text>
 <rect x="24" y="120" width="712" height="72" rx="12" fill="#111c33"/>
 <circle cx="52" cy="156" r="8" fill="#22c55e"/>
 <text x="74" y="151" font-size="18" font-weight="600" fill="#f1f5f9">Smith 2</text>

@@ -65,7 +65,7 @@ def report():
          f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>',
          '<text x="32" y="56" font-size="24" font-weight="700" fill="#f8fafc">Tuesday morning</text>',
          '<text x="32" y="84" font-size="15" fill="#94a3b8">6 wells · 4 fine · 2 need a look</text>',
-         f'<text x="{W-32}" y="56" font-size="13" fill="#64748b" text-anchor="end">EXAMPLE · illustrative wells</text>']
+         f'<text x="{W-32}" y="56" font-size="13" fill="#64748b" text-anchor="end">Sample report</text>']
     y = 120
     for name, status, col, detail in rows:
         p.append(f'<rect x="24" y="{y}" width="{W-48}" height="72" rx="12" fill="#111c33"/>')

@@ -66,13 +66,6 @@ p { color: #cbd5e1; }
 .narrow h2 { max-width: none; }
 .fine { font-size: 14px; color: var(--muted); }
 
-.pilot { background: radial-gradient(1200px 500px at 50% 0%, #1b2436 0%, var(--bg) 70%); text-align: center; }
-.pilot-in { max-width: 760px; }
-.pilot h2 { margin-left: auto; margin-right: auto; }
-.ticks { list-style: none; padding: 0; margin: 28px auto 34px; text-align: left; max-width: 620px; }
-.ticks li { padding-left: 32px; position: relative; margin: 12px 0; color: #d1d5db; }
-.ticks li::before { content: ""; position: absolute; left: 0; top: 7px; width: 16px; height: 9px; border-left: 3px solid var(--accent); border-bottom: 3px solid var(--accent); transform: rotate(-45deg); }
-.pilot .fine { margin-top: 28px; }
 
 .foot { border-top: 1px solid var(--line); padding: 30px 0; }
 .foot-in { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: 14px; }
@@ -86,3 +79,16 @@ p { color: #cbd5e1; }
   .section { padding: 72px 0; }
   .hero { min-height: min(78vh, 720px); }
 }
+
+.cta { text-align: center; background: radial-gradient(1200px 500px at 50% 0%, #1b2436 0%, var(--bg) 70%); }
+.cta-in { max-width: 760px; }
+.cta h2 { margin-left: auto; margin-right: auto; }
+.ticks { list-style: none; padding: 0; margin: 24px 0 0; }
+.ticks li { padding-left: 32px; position: relative; margin: 12px 0; color: #d1d5db; }
+.ticks li::before { content: ""; position: absolute; left: 0; top: 7px; width: 16px; height: 9px; border-left: 3px solid var(--accent); border-bottom: 3px solid var(--accent); transform: rotate(-45deg); }
+.contact { min-height: 70vh; }
+.contact-in { display: grid; grid-template-columns: 1.3fr 1fr; gap: 64px; align-items: start; }
+.page-h { font-size: clamp(34px, 4.4vw, 54px); line-height: 1.08; letter-spacing: -0.02em; margin: 10px 0 18px; }
+.contact-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 32px; }
+.big-link { display: block; font-size: 24px; font-weight: 700; color: var(--accent); text-decoration: none; margin: 4px 0 8px; }
+@media (max-width: 860px) { .contact-in { grid-template-columns: 1fr; gap: 32px; } }
