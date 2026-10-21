@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" font-family="Inter, Helvetica, Arial, sans-serif">
+<rect x="120" y="40" width="400" height="440" rx="10" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+<rect x="150" y="70" width="340" height="380" rx="6" fill="#0f172a"/>
+<rect x="165" y="110" width="310" height="10" fill="#475569"/>
+<rect x="185" y="90" width="70" height="80" rx="6" fill="#334155"/>
+<rect x="270" y="90" width="70" height="80" rx="6" fill="#334155"/>
+<rect x="360" y="84" width="96" height="92" rx="8" fill="#0b0f14" stroke="#f97316" stroke-width="3"/>
+<text x="408" y="136" font-size="15" font-weight="800" fill="#f97316" text-anchor="middle">BLACKCAP</text>
+<line x1="200" y1="170" x2="200" y2="430" stroke="#94a3b8" stroke-width="7"/>
+<line x1="225" y1="170" x2="225" y2="430" stroke="#94a3b8" stroke-width="7"/>
+<line x1="250" y1="170" x2="250" y2="430" stroke="#94a3b8" stroke-width="7"/>
+<rect x="183" y="290" width="34" height="46" rx="10" fill="none" stroke="#f97316" stroke-width="6"/>
+<path d="M217,312 C300,312 360,260 400,180" fill="none" stroke="#f97316" stroke-width="3" stroke-dasharray="6 6"/>
+<text x="40" y="318" font-size="15" fill="#cbd5e1">Clamp on</text><text x="40" y="338" font-size="15" fill="#cbd5e1">one motor wire</text>
+<text x="530" y="125" font-size="15" fill="#cbd5e1">On the</text><text x="530" y="145" font-size="15" fill="#cbd5e1">DIN rail</text>
+<line x1="456" y1="96" x2="456" y2="20" stroke="#f97316" stroke-width="3"/>
+<text x="466" y="28" font-size="14" fill="#cbd5e1">Antenna outside</text>
+<text x="320" y="505" font-size="14" fill="#64748b" text-anchor="middle">In the starter cabinet, away from the wellhead</text>
+</svg>
