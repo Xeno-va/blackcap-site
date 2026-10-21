@@ -11,7 +11,7 @@
 <line x1="250" y1="170" x2="250" y2="430" stroke="#94a3b8" stroke-width="7"/>
 <rect x="183" y="290" width="34" height="46" rx="10" fill="none" stroke="#f97316" stroke-width="6"/>
 <path d="M217,312 C300,312 360,260 400,180" fill="none" stroke="#f97316" stroke-width="3" stroke-dasharray="6 6"/>
-<text x="40" y="318" font-size="15" fill="#cbd5e1">Clamp on</text><text x="40" y="338" font-size="15" fill="#cbd5e1">one motor wire</text>
+<text x="108" y="310" font-size="15" fill="#cbd5e1" text-anchor="end">Clamp on one</text><text x="108" y="330" font-size="15" fill="#cbd5e1" text-anchor="end">motor wire</text>
 <text x="530" y="125" font-size="15" fill="#cbd5e1">On the</text><text x="530" y="145" font-size="15" fill="#cbd5e1">DIN rail</text>
 <line x1="456" y1="96" x2="456" y2="20" stroke="#f97316" stroke-width="3"/>
 <text x="466" y="28" font-size="14" fill="#cbd5e1">Antenna outside</text>
