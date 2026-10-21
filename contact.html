@@ -37,12 +37,24 @@
         <li>The best way and time to reach you.</li>
       </ul>
     </div>
-    <div class="contact-card">
-      <h3>Email</h3>
-      <a class="big-link" href="mailto:hello@blackcap.cx?subject=Blackcap">hello@blackcap.cx</a>
-      <p class="fine">Every message is read by the people building Blackcap.</p>
-      <a class="btn" href="mailto:hello@blackcap.cx?subject=Blackcap&amp;body=How%20many%20wells%20and%20where%3A%0AElectric%3F%20Timer%20or%20pump-off%20controller%3F%0ABest%20way%20to%20reach%20me%3A">Write to us</a>
-    </div>
+    <form class="contact-card enquiry" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="66ff773b-dd45-49e2-b322-aab866b27ac4">
+      <input type="hidden" name="subject" value="Enquiry from Blackcap">
+      <input type="hidden" name="from_name" value="Blackcap">
+      <input type="hidden" name="redirect" value="https://blackcap.cx/thanks.html">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+      <label><span>Name</span><input type="text" name="name" required autocomplete="name"></label>
+      <label><span>Company <em>optional</em></span><input type="text" name="company" autocomplete="organization"></label>
+      <div class="row">
+        <label><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+        <label><span>Phone <em>optional</em></span><input type="tel" name="phone" autocomplete="tel"></label>
+      </div>
+      <label><span>How many wells?</span>
+        <select name="wells"><option>1 to 10</option><option>11 to 50</option><option>51 to 200</option><option>More than 200</option></select>
+      </label>
+      <label><span>Message</span><textarea name="message" rows="5" required placeholder="Where your wells are, what starts and stops them today, and anything you'd like to know."></textarea></label>
+      <button type="submit" class="btn">Send</button>
+    </form>
   </div>
 </section>
 </main>
@@ -52,7 +64,6 @@
     <img class="logo small" src="img/logo-muted.svg" alt="">
     <span>© 2026 Blackcap</span>
     <a href="contact.html">Contact</a>
-    <a href="mailto:hello@blackcap.cx">hello@blackcap.cx</a>
   </div>
 </footer>
 

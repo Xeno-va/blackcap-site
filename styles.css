@@ -92,3 +92,15 @@ p { color: #cbd5e1; }
 .contact-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 32px; }
 .big-link { display: block; font-size: 24px; font-weight: 700; color: var(--accent); text-decoration: none; margin: 4px 0 8px; }
 @media (max-width: 860px) { .contact-in { grid-template-columns: 1fr; gap: 32px; } }
+
+.enquiry { display: grid; gap: 16px; }
+.enquiry .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.enquiry label { display: grid; gap: 6px; }
+.enquiry label > span { font-size: 13px; font-weight: 600; color: var(--muted); }
+.enquiry label > span em { font-style: normal; font-weight: 400; opacity: .7; }
+.enquiry input, .enquiry select, .enquiry textarea { font: inherit; font-size: 16px; color: var(--text); background: var(--bg); border: 1px solid #374151; border-radius: 10px; padding: 11px 13px; width: 100%; }
+.enquiry textarea { resize: vertical; }
+.enquiry input:focus, .enquiry select:focus, .enquiry textarea:focus { outline: none; border-color: var(--accent); }
+.enquiry button { justify-self: start; border: 0; cursor: pointer; font: inherit; font-weight: 700; }
+.enquiry .hp { position: absolute; left: -9999px; }
+@media (max-width: 520px) { .enquiry .row { grid-template-columns: 1fr; } }
