@@ -84,24 +84,31 @@
 
 <section class="section">
   <div class="wrap split split-rev">
-    <div class="phone" role="img" aria-label="The Blackcap app on a phone: wells that need you first, then the rest">
-      <div class="phone-top"><span>Blackcap</span><span class="phone-tag">Sample</span></div>
-      <div class="phone-tiles"><span class="bad"><b>2</b>need you</span><span class="warn"><b>1</b>to check</span><span class="good"><b>2</b>running</span><span><b>1</b>resting</span></div>
+    <div class="phone" role="img" aria-label="The Blackcap app on a phone: the wells that need you first, each with why and when it ran today">
+      <div class="phone-top"><span class="pt-brand">Blackcap</span><span class="pt-tabs"><b>Wells</b><span>Fleet</span></span></div>
+      <div class="phone-counts"><span class="bad"><b>2</b> need you</span><span class="warn"><b>2</b> to check</span><span class="good"><b>2</b> fine</span></div>
+      <div class="phone-search">Search wells</div>
       <ul class="phone-list">
-        <li class="pw bad"><span class="pb">Error</span><span class="pn"><b>Smith 4</b><em>Smith lease</em></span><span class="ps">Down</span>
-          <span class="pr">Stopped since 4:12 am, longer than it normally rests</span><span class="pk"><i>Ran</i>61%</span><span class="pk"><i>Oil</i>4.5 bbl</span><span class="pk"><i>Power</i>60 kWh</span></li>
-        <li class="pw bad"><span class="pb">Error</span><span class="pn"><b>Ridge 1</b><em>Ridge lease</em></span><span class="ps">Running, no load</span>
-          <span class="pr">Motor turning with almost no load: check belts and rods</span><span class="pk"><i>Ran</i>100%</span><span class="pk"><i>Oil</i>3.0 bbl</span><span class="pk"><i>Power</i>120 kWh</span></li>
-        <li class="pw warn"><span class="pb">Check</span><span class="pn"><b>Creek 7</b><em>Creek lease</em></span><span class="ps">Something changed</span>
-          <span class="pr">Motor current spectrum 3× its usual level</span><span class="pk"><i>Ran</i>100%</span><span class="pk"><i>Oil</i>9.0 bbl</span><span class="pk"><i>Power</i>164 kWh</span></li>
-        <li class="pw good"><span class="pb">Good</span><span class="pn"><b>Smith 2</b><em>Smith lease</em></span><span class="ps">Running</span>
-          <span class="pr">Running since 3:12 am</span><span class="pk"><i>Ran</i>75%</span><span class="pk"><i>Oil</i>4.5 bbl</span><span class="pk"><i>Power</i>66 kWh</span></li>
+        <li class="pw bad"><span class="pd"></span><span class="pn"><b>Ridge 1</b><em>Ridge lease</em></span><span class="ps">No load</span>
+          <span class="pr">Motor turning with almost no load: check belts and rods · ran 23 h 56 min</span><span class="pst"><i style="left:0%;width:100%;background:#f87171"></i></span></li>
+        <li class="pw bad"><span class="pd"></span><span class="pn"><b>Smith 4</b><em>Smith lease</em></span><span class="ps">Down</span>
+          <span class="pr">Stopped since 1:20 pm, longer than it normally rests · ran 14 h 38 min</span><span class="pst"><i style="left:0%;width:11%;background:#f87171"></i><i style="left:19%;width:28%;background:#f87171"></i><i style="left:51%;width:23%;background:#f87171"></i></span></li>
+        <li class="pw warn"><span class="pd"></span><span class="pn"><b>Creek 8</b><em>Creek lease</em></span><span class="ps">No signal</span>
+          <span class="pr">Unit last heard from at 3:38 pm · ran 20 h 56 min</span><span class="pst"><i style="left:0%;width:88%;background:#fbbf24"></i></span></li>
+        <li class="pw warn"><span class="pd"></span><span class="pn"><b>Creek 7</b><em>Creek lease</em></span><span class="ps">Check</span>
+          <span class="pr">Spectrum anomaly 3.0× its usual level · Stroke 9% different from normal</span><span class="pst"><i style="left:0%;width:100%;background:#fbbf24"></i></span></li>
+        <li class="pw rest"><span class="pd"></span><span class="pn"><b>Ridge 3</b><em>Ridge lease</em></span><span class="ps">Resting</span>
+          <span class="pr">Resting since 6:10 pm · ran 12 h</span><span class="pst"><i style="left:10%;width:12%;background:#4ade80"></i><i style="left:35%;width:12%;background:#4ade80"></i><i style="left:60%;width:12%;background:#4ade80"></i><i style="left:85%;width:12%;background:#4ade80"></i></span></li>
+        <li class="pw good"><span class="pd"></span><span class="pn"><b>Smith 2</b><em>Smith lease</em></span><span class="ps">Running</span>
+          <span class="pr">Running since 6:36 pm · ran 17 h 56 min</span><span class="pst"><i style="left:0%;width:23%;background:#4ade80"></i><i style="left:31%;width:24%;background:#4ade80"></i><i style="left:63%;width:24%;background:#4ade80"></i></span></li>
+        <li class="pw add"><span class="pd">+</span><span class="pn"><b>Add a new device</b></span><span class="pr">Serial and claim code from the unit's label</span></li>
       </ul>
     </div>
     <div>
       <p class="eyebrow">One list, every morning</p>
       <h2>Your route, sorted before you start it.</h2>
       <p>Most stops on a pumper's route find nothing wrong. Blackcap puts the wells that need you at the top and says what changed, so the drive goes where the problems are.</p>
+      <p>Under each well, a strip shows when its motor ran over the last day. Tap a well for today, for what is changing, and for what it is earning; a fleet page adds it all up. Adding a well is the serial and code off the unit and the well's name.</p>
     </div>
   </div>
 </section>
