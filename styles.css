@@ -135,6 +135,48 @@ p { color: #cbd5e1; }
 .pw.add { border-style: dashed; background: transparent; padding-bottom: 9px; }
 .pw.add .pd { width: 14px; height: 14px; display: grid; place-items: center; font-size: 11px; font-weight: 700; color: #e6eaf0; background: #4b5563; }
 
+/* three phones, one per question */
+.trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 44px; align-items: start; }
+.trio-col h3 { margin: 26px 0 8px; font-size: 21px; align-self: end; }
+.trio-col > p { margin: 0; color: var(--muted, #a2acba); }
+.trio .phone { max-width: 360px; }
+@media (min-width: 1081px) { .trio { grid-template-rows: auto auto auto; row-gap: 0; } .trio-col { display: grid; grid-row: span 3; grid-template-rows: subgrid; } }
+.pw.open { margin-bottom: 8px; }
+.pmodes { display: grid; grid-template-columns: repeat(4, 1fr); background: #161b22; border-radius: 10px; padding: 3px; margin-bottom: 8px; font-size: 11px; text-align: center; color: #a2acba; }
+.pmodes > * { padding: 6px 0; border-radius: 8px; } .pmodes b { background: #2b323d; color: #e6eaf0; }
+.ppanel { background: #262d38; border: 1px solid #38414e; border-radius: 10px; padding: 11px 12px; margin-bottom: 8px; }
+.ppanel h4 { margin: 0 0 8px; font-size: 13px; display: flex; justify-content: space-between; }
+.prange { font-weight: 500; color: #7c8695; font-size: 11px; }
+.pchk { margin-bottom: 9px; } .pchk:last-child { margin-bottom: 0; }
+.pchk-h { display: flex; justify-content: space-between; font-size: 11.5px; margin-bottom: 4px; }
+.pchk-h b { font: 600 11.5px ui-monospace, Menlo, monospace; }
+.pchk-bar { position: relative; display: block; height: 9px; border-radius: 4px; background: #161b22; }
+.pchk-bar i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+.pchk-bar .ok { background: #2f6a47; } .pchk-bar .mk { width: 5px; top: -2px; bottom: -2px; margin-left: -2px; border-radius: 2px; }
+.pchk small { display: block; font-size: 10px; color: #7c8695; margin-top: 3px; }
+.pchk-h .good, .ptotals .good, .ptr.good { color: #4ade80; } .pchk-h .warn, .ptr.warn { color: #fbbf24; } .pchk-h .bad, .ptr.bad { color: #f87171; }
+.mk.good { background: #4ade80; } .mk.warn { background: #fbbf24; } .mk.bad { background: #f87171; }
+.pchart { width: 100%; height: auto; display: block; }
+.pchart .axis { stroke: #38414e; } .pchart text { fill: #7c8695; font-size: 10px; text-anchor: middle; }
+.pchart path { fill: none; stroke-width: 2.4; } .pchart .now { stroke: #f97316; } .pchart .norm { stroke: #94a3b8; stroke-dasharray: 4 4; stroke-width: 1.6; }
+.plegend { margin: 4px 0 0; font-size: 10px; color: #a2acba; display: flex; align-items: center; gap: 6px; }
+.plegend i { display: inline-block; width: 14px; height: 2px; } .plegend i.now { background: #f97316; } .plegend i.norm { background: #94a3b8; margin-left: 8px; }
+.psplit { display: block; height: 14px; border-radius: 4px; background: #f97316; overflow: hidden; margin-bottom: 8px; }
+.psplit i { display: block; height: 100%; background: #3b9a64; }
+.ptotals { display: grid; grid-template-columns: repeat(3, 1fr); font: 700 16px ui-monospace, Menlo, monospace; }
+.ptotals i { display: block; font: 400 10px Inter, sans-serif; color: #7c8695; }
+.pnote { font-size: 10px; color: #7c8695; margin: 6px 0 0; line-height: 1.35; }
+.ptable-h { display: grid; grid-template-columns: 1.2fr 1fr .9fr; align-items: center; }
+.ptable li { display: grid; align-items: center; }
+.ptable-h { padding-left: 18px; font-size: 10px; color: #7c8695; padding-bottom: 6px; border-bottom: 1px solid #38414e; }
+.ptable { list-style: none; margin: 0; padding: 0; }
+.ptable li { padding: 7px 0; border-bottom: 1px solid #2f3743; font-size: 12px; grid-template-columns: 12px 1.2fr 1fr .9fr; gap: 0 6px; }
+.ptable li:last-child { border-bottom: 0; }
+.ptable .pd { grid-area: auto; width: 8px; height: 8px; }
+.ptable li.bad .pd { background: #f87171; } .ptable li.warn .pd { background: #fbbf24; } .ptable li.good .pd { background: #4ade80; } .ptable li.rest .pd { background: #94a3b8; }
+.pnet { font: 700 12px ui-monospace, Menlo, monospace; color: #4ade80; } .ptr { font: 600 11px ui-monospace, Menlo, monospace; }
+@media (max-width: 1080px) { .trio { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; gap: 56px; } }
+
 @media (max-width: 520px) {
   .wrap { padding-left: 18px; padding-right: 18px; }
   .ctas { gap: 10px; }
